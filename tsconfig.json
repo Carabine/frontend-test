@@ -1,0 +1,23 @@
+{
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "vite.config.ts",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+  }
+}
