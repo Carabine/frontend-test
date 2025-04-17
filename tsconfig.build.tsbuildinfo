@@ -1,1 +1,0 @@
-{"root":["./src/app.vue","./src/main.ts","./src/vite-env.d.ts","./src/composables/usewindowsize.ts","./src/pages/places/createplaceform.vue","./src/pages/places/filters.vue","./src/pages/places/map.vue","./src/pages/places/places.vue","./src/pages/places/sidepanel.vue","./src/store/placesstore.ts","./src/utils/helpers.ts","./src/utils/places.ts"],"errors":true,"version":"5.8.3"}
